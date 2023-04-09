@@ -1,1 +1,127 @@
-# Travel
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Noto+Serif+Georgian&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway&family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li{
+    margin: 0 15px;
+    margin: 0 auto;
+}
+ul li a {
+   color: #1C4961 !important;
+   font-size: 22px !important;
+}
+.connect{
+    background-color: #4468E2;
+    padding: 8px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 auto;
+    height: 35px;
+    width: 105px;
+
+}
+
+.section{
+    background-image: url(img/banner.png);
+    width: 100%;
+    height: 610px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.section h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+.section p {
+    color: #FFFFFF;
+    width: 522px;
+    height: 100px;
+    scrollbar-color: none;
+    overflow: scroll;
+    margin: 0 auto;
+    font-size: 22px;
+    
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.section p::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.section p {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.banner-div{
+    width: 875px;
+    height: 90px;
+    margin:0 auto !important;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px !important;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+.banner-div h6{
+    color: #151515;
+    font-size: 20px !important;
+    margin-top: 15px;
+}
+.banner-div p{
+    color:#7E7E7E;
+    font-size: 16px !important;
+    position: relative;
+    left: -195px !important;
+    
+}
+.banner-div img, span{
+    width: 15px;
+    height: 15px;
+    color:#7E7E7E !important; 
+}
+
+.explore{
+    background-color: #4468E2;
+    font-size: 21px;
+    width: 187px;
+    height: 63px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    color: #FFFFFF !important;
+}
+
+
+
+
+@media only screen and (max-width:768) {
+    
+}
