@@ -290,6 +290,35 @@ ul li a{
     top: 100px;
 
 }
+.section4{
+    background-color: #E1E8F8;
+    height: 120px;
+    padding-top: 20px;
+}
+.section4 ul {
+    margin: 0 20px !important;
+    font-size: 24px;
+    margin-left: 50px !important;
+    margin-bottom: 12px !important;
+}
+.section4 p{
+    font-size: 24px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.end a{
+    margin:0 15px;
+    position: relative;
+    left: 150px !important;
+    
+    
+    
+}
+
 
 
 
