@@ -43,6 +43,7 @@ ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 150px;
     
     
 }
@@ -118,9 +119,28 @@ ul li a {
     left: 80px;
     color: #FFFFFF !important;
 }
+.section1{
+    margin-bottom: 50px;
+}
+.card{
+    background-color: #ffffff;
+    height: 280px !important;
+}
 
+.card img{
+    width: 105px;
+    height: 100px;
+}
+.card-title{
+    color: #0F0F0F;
+    font-size: 24px;
 
-
+}
+.card body{
+    color: #0F0F0F;
+    font-size: 20px;
+    
+}
 
 @media only screen and (max-width:768) {
     
